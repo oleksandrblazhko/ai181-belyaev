@@ -40,11 +40,13 @@ WebSockets можна використовувати через незашифр
 
 #### Приклад 1
 Коли ми визначили, що програма використовує WebSockets (як описано вище), ми можемо використовувати OWASP Zed Attack Proxy (ZAP) для перехоплення запиту WebSocket і відповідей. Після цього ZAP можна використовувати для відтворення та розмитості запитів/відповідей WebSocket.
+
 ![image](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/11-Client-side_Testing/images/OWASP_ZAP_WebSockets.png)
 Рисунок 4.11.10-1: ZAP WebSockets
 
 #### Приклад 2
 За допомогою клієнта WebSocket (його можна знайти в розділі «Інструменти» нижче) спробуйте підключитися до віддаленого сервера WebSocket. Якщо підключення дозволено, сервер WebSocket може не перевіряти вихідний заголовок рукостискання WebSocket. Спробуйте відтворити раніше перехоплені запити, щоб перевірити, чи можливе міждоменне спілкування WebSocket.
+
 ![image](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/11-Client-side_Testing/images/WebSocket_Client.png)
 Рисунок 4.11.10-2: Клієнт WebSocket
 
