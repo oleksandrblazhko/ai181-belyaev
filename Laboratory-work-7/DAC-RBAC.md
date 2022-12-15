@@ -48,7 +48,7 @@
 
 14. Встановіть повноваження на оновлення таблиці новому користувачеві.
 
-![image](https://user-images.githubusercontent.com/55207058/207800474-26d7aae3-3e86-4520-af6d-76db8e2777ad.png)
+![image](https://user-images.githubusercontent.com/55207058/207802217-eea09215-53a5-46da-a31f-662ee831c817.png)
 
 15. Повторіть крок 13.
 
