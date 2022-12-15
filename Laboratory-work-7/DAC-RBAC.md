@@ -52,30 +52,32 @@
 
 15. Повторіть крок 13.
 
-![image](https://user-images.githubusercontent.com/55207058/207800708-5ebdb7d3-d89b-4f66-bd36-2f2da70a2fa4.png)
+![image](https://user-images.githubusercontent.com/55207058/207801228-52ba2140-3a1a-4697-bbe6-a09dd5d71231.png)
 
 16. Створіть команду видалення запису таблиці (DELETE) і виконайте її від імені нового користувача. Проаналізуйте результат виконання команди.
 
 ![image](https://user-images.githubusercontent.com/55207058/207800879-9e0618e6-0549-4784-8abe-f3f74bf50f49.png)
 
-![image](https://user-images.githubusercontent.com/55207058/207800898-913be951-9eb7-47f3-93bb-c1172c439539.png)
-
 17. Встановіть повноваження на видалення таблиці новому користувачеві.
 
 ![image](https://user-images.githubusercontent.com/55207058/207801029-3a944669-3b1c-45ae-b9a4-6ceb6e35a3a8.png)
 
+18. Повторіть крок 16.
 
+![image](https://user-images.githubusercontent.com/55207058/207801277-3e01e5e3-1db7-4bdb-a609-8e448dcc637d.png)
 
+19. Зніміть всі повноваження з таблиці для нового користувача.
 
+![image](https://user-images.githubusercontent.com/55207058/207801489-304a1ff1-7f9b-42c7-89b8-06f1225a13f6.png)
 
+20. Створіть команду внесення запису в таблицю (INSERT) і виконайте її від імені нового користувача. Проаналізуйте результат виконання команди.
 
+![image](https://user-images.githubusercontent.com/55207058/207801655-e23d1738-667c-46e7-bd58-bb99a327d98e.png)
 
+21. Встановіть повноваження на внесення даних до таблиці для ролі.
 
+![image](https://user-images.githubusercontent.com/55207058/207801838-44fd1ecb-d953-45de-8a89-8fd67d4c3789.png)
 
+22. Повторіть крок 20.
 
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/55207058/207801874-0fc055c3-0626-4685-bbce-4dc04076e686.png)
