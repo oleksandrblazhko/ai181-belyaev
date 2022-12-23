@@ -4,7 +4,7 @@ AS $$
 DECLARE
 	str VARCHAR;
 BEGIN
-	str := 'UPDATE public.human SET name = $1 WHERE name = $2';
+	str := 'UPDATE public.human SET bd = $1 WHERE name = $2';
 	RAISE NOTICE 'Query=%', str;
     EXECUTE str USING bd, human_name;
 	RETURN bd;
