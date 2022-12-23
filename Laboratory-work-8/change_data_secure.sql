@@ -1,12 +1,12 @@
-CREATE OR REPLACE FUNCTION change_data_secure(human_name VARCHAR, id INTEGER)
-RETURNS VARCHAR
+CREATE OR REPLACE FUNCTION change_data_secure(human_name VARCHAR, bd DATE)
+RETURNS DATE
 AS $$
 DECLARE
 	str VARCHAR;
 BEGIN
-	str := 'UPDATE public.human SET name = $1 WHERE p_id = $2';
+	str := 'UPDATE public.human SET name = $1 WHERE name = $2';
 	RAISE NOTICE 'Query=%', str;
-    EXECUTE str USING human_name, id;
-	RETURN human_name;
+    EXECUTE str USING bd, human_name;
+	RETURN bd;
 END;
 $$ LANGUAGE plpgsql;
