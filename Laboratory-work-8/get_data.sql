@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION get_data(human_name VARCHAR)
 RETURNS TABLE
-    (p_id INTEGER, name VARCHAR, bd VARCHAR)
+    (p_id INTEGER, name VARCHAR, bd DATE)
 AS $$
 DECLARE
 	str VARCHAR;
