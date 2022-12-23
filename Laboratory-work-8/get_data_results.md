@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/55207058/209317309-2cb99f7e-db00-4a91-b726-b0366706937c.png)
 
-2. "Зняття фільтрації рідків умови SQL-запиту"
+2. "Зняття фільтрації рядків умови SQL-запиту"
 
 ![image](https://user-images.githubusercontent.com/55207058/209317402-9aeff4e6-5fad-4fc2-aad2-b44a25042078.png)
 
